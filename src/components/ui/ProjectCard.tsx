@@ -8,6 +8,12 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
+    <a 
+    href={project.githubUrl || '#'} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="block bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:scale-[1.02] hover:bg-gray-750 cursor-pointer"
+    >
     <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
       <img
         src={project.image}
@@ -33,6 +39,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         </div>
       </div>
     </div>
+    </a>
   );
 };
 

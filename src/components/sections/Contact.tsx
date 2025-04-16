@@ -11,8 +11,8 @@ const Contact: React.FC = () => {
         <div className="max-w-2xl mx-auto flex flex-col gap-6">
           <ContactLink
             icon={<Mail className="w-6 h-6" />}
-            href="mailto:contact@example.com"
-            text="contact@example.com"
+            href="mailto:emash90@gmail.com"
+            text="Gmail"
           />
           <ContactLink
             icon={<Github className="w-6 h-6" />}
@@ -21,8 +21,8 @@ const Contact: React.FC = () => {
           />
           <ContactLink
             icon={<Linkedin className="w-6 h-6" />}
-            href="https://linkedin.com"
-            text="linkedin.com/in/username"
+            href="https://www.linkedin.com/in/edwin-macharia-20aa6450/"
+            text="linkedin.com"
           />
         </div>
       </div>
